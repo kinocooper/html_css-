@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top {
+  width: 100%;
+  height: 50px;
+}
+
+.orange {
+  background-color: #ff9a4b;
+}
+
+.all-steps {
+  width: 960px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.step-back {
+  width: 300px;
+  height: 350px; /* 仮 */
+  background-color: #eeeeee;
+  position: relative;
+  margin-right: 30px;
+}
+
+.step-no {
+  color: #fff;
+}
+
+.step-box {
+  width: 280px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.image {
+  height: 150px;
+  width: 280px;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.image1 {
+  background-image: url(img/flow01.png);
+}
+
+.image2 {
+  background-image: url(img/flow02.png);
+}
+.image3 {
+  background-image: url(img/flow03.png);
+}
+.title {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.centence {
+  font-size: 14px;
+}
+
+.bottom {
+  width: 100%;
+  height: 50px;
+  background-color: #aaaaaa;
+}
