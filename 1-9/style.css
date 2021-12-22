@@ -13,35 +13,33 @@
   background-color: #ff9a4b;
 }
 
-.all-steps {
+main {
   width: 960px;
   margin: 50px auto;
   display: flex;
-  justify-content: center;
 }
 
-.step-back {
+.step-box {
   width: 300px;
-  height: 350px; /* 仮 */
   background-color: #eeeeee;
   position: relative;
   margin-right: 30px;
+  padding: 10px;
+}
+
+.step-box:last-child {
+  margin-right: 0;
 }
 
 .step-no {
   color: #fff;
-}
-
-.step-box {
-  width: 280px;
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 0;
+  left: 0;
 }
 
 .image {
   height: 150px;
-  width: 280px;
   background-size: cover;
   background-position: bottom;
 }
@@ -62,7 +60,6 @@
 }
 
 .centence {
-  font-size: 14px;
 }
 
 .bottom {
